@@ -6,9 +6,8 @@
     <title>Francisco Oliveira</title>
   </head>
   <body>
-
     <header>
-      <h1>Francisco Oliveira </h1>
+      <h1>Francisco Oliveira</h1>
       <nav>
         <!-- Seção de Navegação do Site-->
         <ul>
@@ -22,10 +21,14 @@
       </nav>
     </header>
 
-    <section id="sobre">  <!-- Primeira Seccão-->
+    <section id="sobre">
+      <!-- Primeira Seccão-->
       <h3>Sobre mim</h3>
       <img
-        src="img\1.jpg" alt="Imagem foto do perfil" title="Imagem do Perfil"/>
+        src="img\1.jpg"
+        alt="Imagem foto do perfil"
+        title="Imagem do Perfil"
+      />
       <article>
         <p>Olá, Sou Francisco Oliveira, Analista de Sistema, Fé em Deus!</p>
       </article>
@@ -40,7 +43,8 @@
       </aside>
     </section>
 
-    <section id="projeto"> <!-- Segunda Seccão-->
+    <section id="projeto">
+      <!-- Segunda Seccão-->
       <article>
         <h3>Portifólio</h3>
         <p>Este foi o primeiro site que Desenvolvi.</p>
@@ -48,16 +52,59 @@
     </section>
 
     <footer>
-        <p>Direitos reservador Oliveira Souza</p>
-        <section id="contato">
-            <h3>Contato</h3>
-            <p>Tem um projeto em mente? Entre em contato. </p>
-            <address>
-                E-mail : <a href="mailto:oliveirasouza00@gmail.com">oliveirasouza00@gmail.com</a> <br>
-                Telefone <a href="tel:(+531) 915-392.771">(+531) 915-392.771</a>
-            </address>
-        </section>
-    </footer>
+      <p>Direitos reservador Oliveira Souza</p>
+      <section id="contato">
+        <!-- Terceira Seccão-->
+        <h3>Contato</h3>
+        <p>Tem um projeto em mente? Entre em contato.</p>
 
+        <form action="">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required /><br />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" /><br />
+
+          <label for="assunto">Assunto</label>
+          <select name="assunto" id="assunto">
+            <option value="orcamento">Orçamento</option>
+            <option value="duvida">Dúvida</option>
+            <option value="outro">outro</option>
+          </select>
+
+          <br />
+
+          <label for="messagem">Menssagem:</label>
+          <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea
+          ><br />
+          <input type="checkbox" name="inscricao" id="inscricao" />
+
+          <label for="inscricao"
+            >Deseja receber minha newsletter? Fique por dentro.
+          </label>
+          <br />
+          <input type="submit" value="Enviar Menssagem" /><br />
+
+          <label for="inscricao">
+            Deseja receber minha newsletter? Fique por dentro.</label>
+          <br />
+          <label for="date">Data do envio.</label><br />
+          <input type="date" name="date" />
+        </form>
+
+        <address>
+          E-mail :
+          <a href="mailto:oliveirasouza00@gmail.com"
+            >oliveirasouza00@gmail.com</a
+          >
+          <br />
+          Telefone <a href="tel:(+531) 915-392.771">(+531) 915-392.771</a>
+        </address>
+        
+      </section>
+    </footer>
   </body>
 </html>
