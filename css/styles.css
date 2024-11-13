@@ -83,7 +83,7 @@ section {
   width: 100%;
 }
 
-#contato th, #contato td {
+#contato th,  #contato td {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: left;
