@@ -49,43 +49,24 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-  color: #333;
+/* Estilos para a seção de habilidades */
+#habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+#habilidades table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-li {
-  margin-bottom: 10px;
+#habilidades th, #habilidades td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-  clear: both;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  main {
-    flex-direction: column;
-  }
-  section {
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav li {
-    margin-right: 0;
-  }
+#habilidades th {
+  background-color: #f0f0f0;
 }
