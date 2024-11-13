@@ -70,3 +70,25 @@ section {
 #habilidades th {
   background-color: #f0f0f0;
 }
+
+/* Estilos para a seção de contato */
+#contato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contato table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contato th, #contato td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#contato th {
+  background-color: #f0f0f0;
+}
