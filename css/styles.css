@@ -137,8 +137,8 @@ section {
 }
 
 .portfolio-image img {
-  max-width: 100%;
-  height: auto;
+  max-width: 40%;
+  height: 100%;
   border-radius: 8px;
 }
 
